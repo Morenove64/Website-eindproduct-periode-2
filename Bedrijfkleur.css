@@ -1,0 +1,520 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section{
+display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article, aside, footer, header, main, nav, section {
+	padding: 0;
+	margin: 0;
+}
+
+input[type=email]:focus{
+	width:50%;
+}
+
+input[type=text]:focus{
+	width: 50%;
+}
+
+input[type=text], input[type=email]{
+	transition: width 0.6s ease-in-out;
+	line-height: 20px;
+	width: 25%;
+}
+
+.Header{
+	background-color: red;
+	width: 95%;
+	color: black;
+	box-shadow: 5px 5px 5px;
+	position: relative;
+	left: 1px;
+	color: white;
+	border-radius: 10px;
+}
+
+.h1{
+	text-align: center;
+	position: relative;
+	top: -25px;
+	left: 35px;
+	font-size: 150%;
+	color: white;
+}
+
+.footer2{
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 49px;
+	clear: both;
+	height: 35px;
+	display: none;
+	padding: 5px;
+}
+
+footer a:hover{
+	color: red;
+}
+
+.Logo{
+	width: 20%;
+	height: 10%;
+	position: relative;
+	left: 20px;	
+	top: 10px;
+}
+
+body{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient( black, red, black);
+	background-repeat: repeat;
+}
+
+nav{
+	display:inline ;
+	padding: 5px;
+	width: 10%;
+	position: relative;
+	left: 5px;
+}
+
+nav ul li{
+	display: inline;
+	font-weight: bold;
+	font-variant: small caps;
+	font-size: 155%;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: black;
+	padding: 5px;
+	border-radius: 10px;
+	box-shadow: 0 5px 5px;
+	color: white;
+}
+
+nav ul li a{
+	color: white;
+}
+
+nav ul li a:hover{
+	color: red;
+}
+
+.section1{
+	border: solid 1px black;
+	width: 105%;
+	height: 50%;
+	position: relative;
+	left: -10px;
+	top: 20px;
+	float: left;
+	margin-top: 5px;
+	padding-left: 5px;
+	background-color: red;
+	color: white;
+}
+.section2{
+	border: solid 1px black;
+	width: 105%;
+	height: 50%;
+	position: relative;
+	left: -10px;
+	top: 50px;
+	float: left;
+	margin-top: 15px;
+	padding-left: 5px;
+	background-color: red;
+	color: white;
+}
+	
+.article1{
+	border-top: solid 1px black;
+}
+
+.img1{
+	width: 45%;
+	height: 20%;
+	position: relative;
+	left: 45px;
+	margin-top: 15px;
+	display: none;
+	border: solid 2px;
+}
+
+.footer1{
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 49px;
+	clear: both;
+	height: 36px;
+	display: none;
+	padding: 5px;
+}
+
+.img2{
+	width: 90%;
+	border: solid 1px;
+}
+
+.figure1{
+	position: relative;
+	top: 25px;
+	left: 15px;
+	display: none;
+}
+
+figcaption{
+	border: solid black 1px ;
+	width: 90%;
+	color: white;
+	background-color: red;
+	padding-left: 5px;
+}
+
+label.naw{
+	display: inline-block;
+	padding: 5px;
+	width: 40%;
+}
+	
+input[type=text], input[type=email]{
+	line-height: 25px;
+	width: 40%;
+}
+
+.form{
+	position: relative;
+	left: 3px;
+	color: white;
+}
+
+#button{
+	position: relative;
+	top: 165px;
+	left: 225px;
+	width: 40%;
+}
+
+#button2{
+	position: relative;
+	top: 70px;
+	left: 225px;
+	width: 40%;
+}
+
+#button3{
+	position: relative;
+	top: 70px;
+	left: 225px;
+	width: 40%;
+}
+
+#button4{
+	position: relative;
+	left: 236px;
+	top: 520px;
+	width: 40%;
+}
+
+.button6{
+	position: relative;
+	left: 140px;
+	top: 150px;
+	font-size: 150%;
+	box-shadow: 0 10px #999;
+}
+
+.button6:active{
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.section3{
+	border: solid 1px black;
+	width: 105%;
+	height: 70%;
+	position: relative;
+	left: -10px;
+	top: 100px;
+	float: left;
+	margin-top: 15px;
+	padding-left: 5px;
+	box-shadow: 10px 10px 10px;
+	font-size: 150%;
+	background-color: red;
+	color: white;
+}
+
+.article3{
+	text-align: center;
+}
+
+.footer3{
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 49px;
+	clear: both;
+	height: 36px;
+	display: none;
+}
+
+
+	
+@media screen and (min-width: 600px){
+	
+nav{
+	background-color: black;
+	display: inline-block;
+	text-align: center;
+	width: 80%;
+	position: relative;
+	left: 50px;
+	top: 15px;
+	box-shadow: 5px 5px 5px;
+	color: white;
+}
+
+nav ul li{
+	margin-left: 10px;
+	margin-right: 10px;
+	box-shadow: 0px 0px 0px;
+	color: black;
+}
+
+.Header{
+	width: 90%;
+	position: relative;
+	left: 20px;
+}
+
+body{
+	width:100%;
+}
+
+.h1{
+	position: relative;
+	top: -50px;
+}
+	
+.section1{
+	width: 85%;
+	position: relative;
+	top: 30px;
+	left: 35px;
+	
+}
+
+.section2{
+	width: 85%;
+	position: relative;
+	top: 70px;
+	left: 35px;
+}
+	
+.form{
+	position: relative;
+	top: 30px;
+	width: 95%;
+	left: 15px;
+}
+	
+.img1{
+	width: 90%;
+	height: 50%;
+	position: relative;
+	left: 25px;
+	top: 90px;
+	display: block;
+}	
+
+#button{
+	position: relative;
+	top: -455px;
+	left: 500px;
+	width: 10%;
+}
+
+
+#button2{
+	position: relative;
+	top: -865px;
+	left: 485px;
+	width: 10%;
+}
+
+#button3{
+	position: relative;
+	top: -625px;
+	left: 485px;
+	width: 10%;
+}
+
+#button4{
+	position: relative;
+	top: -125px;
+	left: 500px;
+	width: 10%;
+}
+
+.button6{
+	position: relative;
+	left: 260px;
+}
+
+.section3{
+	width: 90%;
+	position: relative;
+	left: 30px;
+}
+	
+
+
+@media screen and (min-width: 800px) {
+
+body{
+	width: 100%;
+	background-image: url("backgrounddog.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.Header{
+	width: 95%;
+	height: 60px;
+	position: relative;
+	left: 25px;
+	top: 5px;
+	box-shadow: 5px 5px 5px;
+}
+
+.h1{
+	font-size: 200%;
+	position: relative;
+	top: 10px;
+}
+
+.Logo{
+	display: none;
+}
+
+nav{
+	position: relative;
+	left: 105px;
+	top: 20px;
+}
+
+nav ul li{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.section1{
+	width: 45%;
+	float: left;
+	position: relative;
+	left: 50px;
+	top: 30px;
+}
+
+.section2{
+	width: 40%;
+	float: left;
+	position: relative;
+	left: 160px;
+	top: 20px;
+}
+
+.img1{
+	width: 45%;
+	height: 450px;
+	position: relative;
+	left: 50px;
+	top: 5px;
+}
+
+.figure1{
+	display: block;
+	width: 45%;
+	position: relative;
+	top: 35px;
+	left: 10px;
+}
+
+.form{
+	width: 60%;
+	position: relative;
+	left: 300px;
+	height: 400px;
+}
+
+#button{
+	position: relative;
+	top: 185px;
+	left: 1367px;
+	width: 10%;
+}
+
+#button2{
+	position: relative;
+	top: 35px;
+	left: 1367px;
+	width: 10%;
+}
+
+#button3{
+	position: relative;
+	top: 35px;
+	left: 1367px;
+	width: 10%;
+}
+
+#button4{
+	position: relative;
+	top: 520px;
+	left: 1365px;
+}
+
+.button6{
+	position: relative;
+	left: -50px;
+	top: 270px;
+}
+
+.footer1{
+	display: block;
+	z-index: -2;
+	position: relative;
+	top: 156px;
+	height: 42px;
+}
+
+.footer2{
+	display: block;
+	z-index: -2;
+	position: relative;
+	top: 5px;
+}
+
+.footer3{
+	display: block;
+	position: relative;
+	top: 491px;
+	height: 40px;
+	z-index: -2;
+}
+
+.section3{
+	position: relative;
+	left: 380px;
+	width: 50%;
+	height: 70px;
+	padding-top: 30px;
+}
